@@ -32,25 +32,12 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-
-		@font-face {
-			font-family: 'RawengulkPcs';
-			src: url('templates/yoo_capture/fonts/RawengulkPcs.eot');
-			src: url('templates/yoo_capture/fonts/RawengulkPcs.eot?') format('embedded-opentype'),
-				url('templates/yoo_capture/fonts/RawengulkPcs.woff2') format('woff2'),
-				url('templates/yoo_capture/fonts/RawengulkPcs.woff') format('woff'),
-				url('templates/yoo_capture/fonts/RawengulkPcs.ttf') format('truetype'),
-				url('templates/yoo_capture/fonts/RawengulkPcs.svg') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
 	</style>
 	<script src="https://kit.fontawesome.com/e40adf5f3d.js" async defer></script>
 	<script src="https://js.stripe.com/v3/"></script>
 	<script src="https://content.staydirectly.com/sources/jquery.min.js" defer></script>
 	<script src="https://content.staydirectly.com/sources/jquery-noconflict.js" defer></script>
 	<script src="https://content.staydirectly.com/sources/jquery-migrate.min.js" defer></script>
-	<script src="https://tegiacamutsch.staydirectly.com/cache/widgetkit/widgetkit-e7622be2.js" defer></script>
 	<script src="templates/yoo_capture/warp/vendor/uikit/js/components/accordion.js" defer async></script>
 	<script src="media/jui/js/bootstrap.min.js?7ca00c07149cdaa4539d864668fc0b7c" defer></script>
 	<script src="templates/yoo_capture/warp/vendor/uikit/js/uikit.js" defer></script>
@@ -88,16 +75,12 @@ Winter: 2 min to the free skibus stop" />
 
 <body class="tm-sidebar-b-right tm-sidebars-1 tm-noblog">
 
-
-
 	<div class="tm-block tm-headerbar uk-clearfix  tm-slant-bottom">
 		<div class="uk-container uk-container-center">
 
 			<a class="uk-navbar-brand uk-hidden-small menu-items" href="index.html"><span class="logo-font">Tegia
 					Camutsch - Ferienwohnung Laax Rental apartment</span>
 			</a>
-
-
 			<div class="uk-navbar-flip uk-hidden-small">
 				<ul class="uk-navbar-nav uk-hidden-small">
 					<li><a href="/" class="menu-items all-listings uk-hidden">Tegia Camutsch</a></li>
@@ -213,22 +196,14 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 					href="https://a0.muscache.com/im/pictures/prohost-api/Hosting-49490015/original/2f14009f-a4e0-478c-8bfc-02da22b00ed6.png"
 					data-uk-lightbox="{group:'group1'}" data-lightbox-type="image" title="downstairs sketch"></a>
 			</div>
-
-
 		</section>
 	</div>
 
-
-
 	<div class="tm-block ">
 		<div class="uk-container uk-container-center">
-
-
 			<div class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
 
 				<div class="tm-main uk-width-medium-3-5">
-
-
 					<main class="tm-content">
 
 						<div id="system-message-container">
@@ -337,180 +312,8 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 									</ul>
 								</div>
 							</div>
-
-
 							<input type="hidden" value="1" id="totalListings">
 							<input type="hidden" value="/listing?a=49490015" id="successPage">
-						</div>
-
-
-						<div id="form-content" class="uk-hidden">
-							<h4>Please fill out your contact details.</h4>
-							<form class="uk-form" method="post" id="data-form" novalidate="novalidate"
-								autocomplete="on">
-
-
-								<div class="uk-grid">
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="guestName">First Name</label>
-										<input id="guestName" name="guestName" type="text" class="full-form"
-											autocomplete="guestName" required>
-									</div>
-
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="guestSurname">Last Name</label>
-										<input id="guestSurname" name="guestSurname" type="text" class="full-form"
-											autocomplete="guestSurname" required>
-									</div>
-								</div>
-								<div class="uk-grid">
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="user-email">Email</label>
-										<input id="user-email" name="email" type="email" placeholder="me@mail.com"
-											class="full-form" autocomplete="email" required>
-									</div>
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="phoneNumberF">Phone number</label>
-										<input id="phoneNumberF" name="phoneNumberF" type="text" class="full-form"
-											autocomplete="phoneNumber" required>
-									</div>
-								</div>
-
-								<div class="uk-grid">
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="guestAddress">Address</label>
-										<textarea id="guestAddress" name="guestAddress" rows="3"
-											class="three-row full-form"
-											placeholder="For billing purposes. Please include your city, state and Zip code."
-											maxlength="255"></textarea>
-									</div>
-									<div class="uk-width-1-1 uk-width-large-1-2">
-										<label for="note">Notes</label>
-										<textarea id="note" name="note" rows="3" class="three-row full-form"
-											placeholder="Anything you want to mention regarding your reservation."></textarea>
-									</div>
-								</div>
-
-								<input type="hidden" name="checkindata" id="checkindata" value="">
-								<input type="hidden" name="checkoutdata" id="checkoutdata" value="">
-								<input type="hidden" name="guestsdata" id="guestsdata" value="1">
-								<input type="hidden" name="depositToPay" id="depositToPayData" value="">
-								<input type="hidden" name="lastMinute" id="lastMinute" value="0">
-								<input type="hidden" name="pricingData" id="pricingData" value="">
-								<input type="hidden" name="websiteSettings" id="websiteSettings"
-									value='YTo1MTp7czo5OiJ3ZWJzaXRlSWQiO3M6MzY6IjhjOWI4Njc1LTI3NGItNGExYy1iNGFiLWIyNzljOThiZmM1NCI7czo2OiJ1c2VySWQiO3M6MzY6IjM2N2FiMDY0LTljMjMtNDE0Mi1hODQzLTM2YzIxNjNhNDFlNSI7czo0OiJuYW1lIjtzOjUyOiJUZWdpYSBDYW11dHNjaCAtIEZlcmllbndvaG51bmcgTGFheCBSZW50YWwgYXBhcnRtZW50IjtzOjU6ImVtYWlsIjtzOjIyOiJoZWxsb0B0ZWdpYWNhbXV0c2NoLmNoIjtzOjY6ImRvbWFpbiI7czozMDoidGVnaWFjYW11dHNjaC5zdGF5ZGlyZWN0bHkuY29tIjtzOjc6ImxvZ29VUkwiO047czo2OiJzbG9nYW4iO3M6NTI6IlRlZ2lhIENhbXV0c2NoIC0gRmVyaWVud29obnVuZyBMYWF4IFJlbnRhbCBBcGFydG1lbnQiO3M6MTE6ImhlYWRlckltYWdlIjtzOjQ4OiJodHRwczovL2RlbW8uc3RheWRpcmVjdGx5LmNvbS9pbWFnZXMvam91cm5leS5qcGciO3M6NzoiZmF2aWNvbiI7czoxNDI6Imh0dHBzOi8vY29udGVudC5zdGF5ZGlyZWN0bHkuY29tLzM2N2FiMDY0LTljMjMtNDE0Mi1hODQzLTM2YzIxNjNhNDFlNS84YzliODY3NS0yNzRiLTRhMWMtYjRhYi1iMjc5Yzk4YmZjNTQvZmF2aWNvbkltYWdlMTYzMjY4NTg4MDQ4Mi8xNkNGNi5wbmciO3M6MTI6ImZhdmljb25Ub3VjaCI7czoxNDc6Imh0dHBzOi8vY29udGVudC5zdGF5ZGlyZWN0bHkuY29tLzM2N2FiMDY0LTljMjMtNDE0Mi1hODQzLTM2YzIxNjNhNDFlNS84YzliODY3NS0yNzRiLTRhMWMtYjRhYi1iMjc5Yzk4YmZjNTQvZmF2aWNvblRvdWNoSW1hZ2UxNjMyNjg1ODgwNDgyL0EyRkU2LnBuZyI7czoxMToiY29tcGFueU5hbWUiO3M6MTc6Ik1hcmNvIEJlcm5hc29jY2hpIjtzOjE0OiJjb21wYW55QWRkcmVzcyI7czoxMjoiVmlhIEdlaW5hcyAyIjtzOjEyOiJjb21wYW55UGhvbmUiO3M6MTE6IjQxNzk0NjcyNDcwIjtzOjg6InRlbXBsYXRlIjtzOjY6ImZvcmVzdCI7czo3OiJzaG93TWFwIjtzOjE6IjEiO3M6MTc6ImhvbWVQYWdlTWVudUxhYmVsIjtzOjE0OiJUZWdpYSBDYW11dHNjaCI7czoxOToiaG9tZVBhZ2VEZXNjcmlwdGlvbiI7czoxNTY6IldlbGNvbWUgdG8gdGhlIFRlZ2lhIENhbXV0c2NoIC0gdGhlIGNoYW1vaXMgaHV0LgpPbiB0aGlzIHBhZ2UsIHlvdSdyZSBndWFyYW50ZWVkIHRvIGdldCB0aGUgYmVzdCByYXRlcyBwb3NzaWJsZXMKV2UgaG9wZSB0byB3ZWxjb21lIHlvdSBzb29uIQpNYXJjbyAmIEVsaWFuZSI7czoxMDoiZmFjZWJvb2tJZCI7TjtzOjExOiJpbnN0YWdyYW1JZCI7TjtzOjk6InR3aXR0ZXJJZCI7TjtzOjEwOiJsaW5rZWRpbklkIjtOO3M6MTE6InNob3dBYm91dFVzIjtzOjE6IjEiO3M6MTY6ImFib3V0VXNNZW51TGFiZWwiO3M6MTQ6IkVsaWFuZSAmIE1hcmNvIjtzOjEyOiJhYm91dFVzSW1hZ2UiO3M6MTQyOiJodHRwczovL2NvbnRlbnQuc3RheWRpcmVjdGx5LmNvbS8zNjdhYjA2NC05YzIzLTQxNDItYTg0My0zNmMyMTYzYTQxZTUvOGM5Yjg2NzUtMjc0Yi00YTFjLWI0YWItYjI3OWM5OGJmYzU0L2Fib3V0VXNJbWFnZTE2MzI2ODQ4MTc5MjIvMzdBMDEuanBnIjtzOjEyOiJhYm91dFVzVGl0bGUiO3M6MTQ6IkVsaWFuZSAmIE1hcmNvIjtzOjExOiJhYm91dFVzVGV4dCI7czo2NTI6IkFzIG5hdHVyZSBsb3ZlcnMsIHdlIGhhdmUgYmVlbiBsaXZpbmcgaW4gdGhlIHJlZ2lvbiBmb3Igb3ZlciAxNSB5ZWFycy4gVGhlIGNvbWJpbmF0aW9uIG9mIG5hdHVyZSwgcXVpZXQgYW5kIHlldCBhIGxvdCBvZiBvZmZlcmluZyBpcyB3aGF0IG1hZGUgdXMgY2hvb3NlIExhYXggYXMgb3VyIGhvbWUuIFdlIGFyZSBzdXJlIHlvdSB3aWxsIGFsc28gYXBwcmVjaWF0ZSBzcGVuZGluZyB0aW1lIGluIHRoaXMgZmFudGFzdGljIHJlZ2lvbiBhbmQgaG9wZSB0byB3ZWxjb21lIHlvdSBhZ2FpbiBzb29uIQoKTWFyY28gaXMgcnVucyBhIHNvZnR3YXJlIGNvbXBhbnkgdGhhdCBoZSBmb3VuZGVkIGluIDIwMTEsIHdoaWxlIEVsaWFuZSBpcyByZXNwb25zaWJsZSBmb3IgbWFya2V0aW5nLCBjb21tdW5pY2F0aW9ucyBhbmQgc2FsZXMgZm9yIHRoZSBjb21wYW55IHRoYXQgcnVucyB0aGUgTGFheCBza2kgcmVzb3J0LgoKV2UgYm90aCBsb3ZlIHNwb3J0cyBhbmQgcHJhY3RpY2UgcGxlbnR5IG9mIHRoZW0uIFdoZW4gd2UncmUgbm90IGluIHRoZSBvZmZpY2UsIHlvdSBtaWdodCBmaW5kIHVzIEZyZWVyaWRpbmcsIHNraSB0b3VyaW5nLCBtb3VudGFpbmVlcmluZywgbW91bnRhaW4gYmlraW5nLCBoaWtpbmcgYW5kIGF0IHRpbWVzIGV2ZW4gdGluIHRoZSBza3kgOikiO3M6MTU6ImFpcmJuYlN1cGVySG9zdCI7czoxOiIxIjtzOjEzOiJhaXJibmJSZXZpZXdzIjtzOjI6IjM4IjtzOjE0OiJib29raW5nUmV2aWV3cyI7czoyOiIyOSI7czoxNjoicGVyY2VudGFnZU1hcmtVcCI7czoyOiItNSI7czoxNDoiaW5pdGlhbFBheW1lbnQiO3M6MzoiMTAwIjtzOjE0OiJub1JlZnVuZFBlcmlvZCI7czoyOiIxNSI7czoxMzoic3RyaXBlQWNjb3VudCI7czoyMToiYWNjdF8xSmJwZXNBWFFYd21ud09YIjtzOjc6ImZvcmNlM2QiO3M6MToiMCI7czoxMjoicGF5cGFsQ2xpZW50IjtOO3M6MTQ6Im5hdGl2ZUN1cnJlbmN5IjtzOjM6IkNIRiI7czo5OiJhbmFseXRpY3MiO3M6MTQ6IlVBLTIwODY1MDM2MS0yIjtzOjIwOiJnb29nbGVUYWdNYW5hZ2VyQ29kZSI7TjtzOjE5OiJjb25zZW50RGVmYXVsdFBvcHVwIjtzOjE6IjEiO3M6MTQ6ImNvbnNlbnRFbmFibGVkIjtzOjE6IjAiO3M6MjI6Imdvb2dsZVNpdGVWZXJpZmljYXRpb24iO047czo0OiJoZWFkIjtzOjA6IiI7czoxMDoiY2FwdGNoYUtleSI7czoxOiIwIjtzOjE4OiJ0ZXJtc0FuZENvbmRpdGlvbnMiO047czo5OiJwb3dlcmVkQnkiO3M6MToiMSI7czo2OiJzdGF0dXMiO3M6NjoiYWN0aXZlIjtzOjk6ImNyZWF0ZWRBdCI7czoxOToiMjAyMS0wOS0yMCAxOToxNDozNSI7czoxMzoidG90YWxMaXN0aW5ncyI7czoxOiIxIjtzOjg6InNlcnZlcklkIjtzOjI6IjEwIjtzOjk6ImFsbG93U3luYyI7czoxOiIxIjtzOjg6InZlcmlmaWVkIjtzOjE6IjEiO30='>
-								<input type="hidden" name="phoneNumber" id="phoneNumber" value="">
-								<input type="hidden" name="country" id="country" value="">
-								<input type="hidden" name="nativeCurrency" id="currency" value="CHF">
-								<input type="hidden" name="stripeEnabled" value="1" id="stripeEnabled">
-								<input type="hidden" name="paypalEnabled" value="0" id="paypalEnabled">
-								<input type="hidden" name="paypalClient" value="" id="paypalClient">
-								<input type="hidden" name="initialPayment" value="100" id="initialPayment">
-								<input type="hidden" name="listingDetails" id="listingDetails" value=''>
-								<input type="hidden" name="websiteId" value="8c9b8675-274b-4a1c-b4ab-b279c98bfc54"
-									id="websiteId">
-								<input type="hidden" name="roomId" value="6c5dd5b0-72cf-4dc9-ac99-a5fc6f406203"
-									id="roomId">
-								<input type="hidden" name="listingId" value="49490015" id="listingId">
-								<input type="hidden" name="roomAlias" value="Tegiacamutsch" id="roomAlias">
-								<input type="hidden" name="inquiryId" id="inquiryId" value="">
-								<input type="hidden" name="siteStatus" value="private">
-								<input type="hidden" name="couponApplied" id="couponApplied">
-
-							</form>
-
-							<span id="back-to-listing"
-								class="uk-margin-large-top clickable uk-inline-block uk-text-bold">⬅ Back to the listing
-								details</span>
-						</div>
-
-
-						<div id="payment-content" class="uk-hidden">
-							<h4>Please review the payment plan and enter your credit card details to secure your
-								reservation.</h4>
-							<div class="body-text">
-								<div class="timeline">
-									<div class="timeline-item">
-										<div class="timeline-left">
-											<span class="uk-badge"><i class="uk-icon-check timeline-image"></i></span>
-										</div>
-										<div class="timeline-content">
-											<div class="uk-card uk-card-default">
-												<div class="uk-card-header uk-flex-middle uk-grid-small">
-													<h4 class="uk-card-title">Today</h4>
-												</div>
-												<div class="uk-card-body" id="timeline0">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="uk-grid uk-grid-collapse" id="CCFormTable">
-								<div
-									class="uk-width-1-1 uk-width-large-4-5 uk-container-center uk-margin-top secure-box">
-									<div>
-										<form id="paymentForm" method="post" class="uk-form ccform"
-											onsubmit="return onSubmitDo()">
-											<div id="cc-div"
-												class="uk-width-1-1 uk-width-large-1-2 uk-container-center">
-												<div class="uk-width-1-1">
-													<label for="cardholder">Cardholder Name</label>
-													<input id="cardholder" type="text" class="uk-width-1-1"
-														style="-webkit-font-smoothing: initial;" />
-												</div>
-												<div class="uk-width-1-1">
-													<label for="card-numer">Credit Card Number</label>
-													<div id="card-number" class=""></div>
-												</div>
-												<div class="uk-grid">
-													<div class="uk-width-1-2">
-														<label for="card-expiry">Exp. Date</label>
-														<div id="card-expiry" class="stripe-card-div"></div>
-													</div>
-													<div class="uk-width-1-2">
-														<label for="card-cvc">CVC</label>
-														<div id="card-cvc" class="stripe-card-div"></div>
-													</div>
-												</div>
-											</div>
-
-											<div id="card-errors"
-												class="empty-div uk-text-center uk-margin-top uk-margin-bottom uk-text-danger">
-											</div>
-
-									</div>
-									<div><i class="fab fa-expeditedssl uk-text-success uk-text-large"></i> Your credit
-										card details will be processed with 128bit secure SSL connection.</div>
-								</div>
-								</form>
-
-							</div>
-
-
-
-							<p id="back-to-form" class="uk-margin-large-top clickable uk-inline-block uk-text-bold">⬅
-								Back to the guest form</p>
-
-						</div>
-
-
-
-						<div id="standard-modal" class="uk-modal">
-							<div class="uk-modal-dialog">
-
-								<div class="uk-modal-header">
-									<h4 id="modal-title">Title</h4>
-									<!--<a class="uk-modal-close uk-close uk-align-right"></a>-->
-								</div>
-
-								<p id="modal-content" class="uk-margin-top uk-margin-bottom body-text">Content</p>
-								<div class="uk-modal-footer uk-text-center">
-									<button id="standard-modal-button"
-										class="uk-button uk-button-primary alert-button uk-modal-close">OK</button>
-								</div>
-							</div>
 						</div>
 
 						<div id="rules-modal" class="uk-modal">
@@ -529,44 +332,6 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 								</div>
 							</div>
 						</div>
-
-						<div id="confirmation-modal" class="uk-modal">
-							<div class="uk-modal-dialog">
-
-								<div class="uk-modal-header">
-									<h4 id="confirmation-modal-title">Congratulations!</h4>
-								</div>
-
-								<p id="confirmation-modal-content" class="uk-margin-top uk-margin-bottom body-text">Your
-									payment was successful and the reservation is confirmed!</p>
-								<div class="uk-modal-footer uk-text-center">
-									<button class="uk-button uk-button-primary alert-button refreshMe">OK</button>
-								</div>
-							</div>
-						</div>
-						<div id="promo-modal" class="uk-modal">
-							<div class="uk-modal-dialog">
-								<a class="uk-modal-close uk-close uk-align-right uk-text-large"></a>
-								<div class="uk-modal-header">
-									<h4>Apply Promo Code</h4>
-								</div>
-								<p id="promo-modal-content" class="uk-margin-top uk-margin-bottom body-text">Please
-									enter your promo code.</p>
-								<input type="text" id="promo-field" placeholder="Please enter your promo code"> <img
-									id="promo-loading" class="uk-margin-bottom-eleven uk-hidden"
-									src="images/loading.gif">
-								<div id="promo-message"> </div>
-								<div class="uk-modal-footer promo-buttons">
-									<button id="apply-promo"
-										class="uk-button uk-button-primary alert-button promo-button">Apply</button>
-									<button id="promo-cancel"
-										class="uk-button alert-button uk-modal-close promo-button">Cancel</button>
-								</div>
-							</div>
-						</div>
-
-
-
 
 					</main>
 
@@ -635,8 +400,6 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 										</script>
 
 
-
-
 								</div>
 							</div>
 					</section>
@@ -650,7 +413,9 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 							<hr class="uk-article-divider uk-margin-top-remove">
 						</div>
 						<div class="uk-width-1-1">
-							<iframe id="booking-iframe" sandbox="allow-top-navigation allow-scripts allow-same-origin" style="width: 100%; height: 750px" frameborder="0" src="https://booking.hospitable.com/widget/9ca69343-7d73-42a6-8e7d-181c799a40f4/632798"></iframe>
+							<iframe id="booking-iframe" sandbox="allow-top-navigation allow-scripts allow-same-origin"
+								style="width: 100%; height: 750px" frameborder="0"
+								src="https://booking.hospitable.com/widget/9ca69343-7d73-42a6-8e7d-181c799a40f4/632798"></iframe>
 						</div>
 
 						<form id="availability" class="uk-margin-bottom-remove"
@@ -664,8 +429,6 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 						<input type="hidden" name="roomId" value="6c5dd5b0-72cf-4dc9-ac99-a5fc6f406203">
 					</form>
 					<div id="isMobile"></div>
-
-
 			</div>
 			<div class="uk-panel uk-panel-box uk-panel-header uk-panel-hover house-rules uk-hidden">
 				<h4 class="uk-panel-title">House Rules</h4>
@@ -680,8 +443,6 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 	</div>
 	<div class="tm-slant-block-top"></div>
 	</div>
-
-
 
 
 	<div class="tm-block tm-block-dark uk-panel-box-secondary">
@@ -710,14 +471,10 @@ Baby Cot (5 person + 1 baby), could also be placed in another room for 6 person 
 			<footer class="tm-footer uk-text-center">
 
 				<p><a class="tm-totop-scroller uk-margin-bottom" data-uk-smooth-scroll href="listing#"></a></p>
-
-				
 			</footer>
 		</div>
 		<div class="tm-slant-block-top"></div>
 	</div>
-
-
 	<div id="offcanvas" class="uk-offcanvas">
 		<div class="uk-offcanvas-bar">
 			<ul class="uk-nav uk-nav-offcanvas">
